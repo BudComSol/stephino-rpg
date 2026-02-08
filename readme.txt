@@ -3,9 +3,9 @@ Contributors: stephino
 Plugin link: https://stephino.com
 Donate link: https://gum.co/stephino-rpg
 Tags: game, games, rpg, fun, competition, platformer, pwa, strategy, gutenberg
-Requires at least: 5.0
-Tested up to: 5.8
-Requires PHP: 5.6
+Requires at least: 6.0
+Tested up to: 6.9
+Requires PHP: 8.1
 Stable tag: trunk
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
@@ -440,7 +440,7 @@ The most requested feature gets implemented in the next release (usually).
   * Added Gutenberg Game Block
   * Added [stephino-rpg] shortcode
 * Additional changes
-  * Requires at least WordPress 5.0+
+  * Requires at least WordPress 6.0+
   * Removed link to WordPress profile
   * Added password changer to in-game profile
 

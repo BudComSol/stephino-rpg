@@ -141,7 +141,7 @@ abstract class Stephino_Rpg_Config_Item_Abstract {
         $reflectionClass = new ReflectionClass(self::DEF_KEY_TYPE_SINGLE === $classType ? get_called_class() : static::SINGLE_CLASS);
 
         // Get the class title
-        $classTitle = trim(preg_replace(array('%^Stephino_Rpg_Config_%', '%([A-Z])%'), array('', ' ${1}'), get_called_class()));
+        $classTitle = trim(preg_replace(array('%^Stephino_Rpg_Config_%', '%([A-Z])%'), array('', ' $1'), get_called_class()));
         
         // Go through the methods
         foreach ($reflectionClass->getMethods(ReflectionProperty::IS_PUBLIC) as /* @var $method ReflectionMethod */ $method) {
@@ -153,7 +153,7 @@ abstract class Stephino_Rpg_Config_Item_Abstract {
                 $paramTitle = trim(
                     preg_replace(
                         array('%^get%', '%([A-Z\d])%'), 
-                        array('', ' ${1}'), 
+                        array('', ' $1'), 
                         $method->getName()
                     )
                 );
