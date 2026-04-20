@@ -4,7 +4,7 @@ Plugin link: https://stephino.com
 Donate link: https://gum.co/stephino-rpg
 Tags: game, games, rpg, fun, competition, platformer, pwa, strategy, gutenberg
 Requires at least: 6.0
-Tested up to: 6.9
+Tested up to: 6.9.1
 Requires PHP: 8.1
 Stable tag: trunk
 License: GPLv3
