@@ -8,7 +8,7 @@
  * @package    stephino-rpg
  * @license    GPL v3+, https://gnu.org/licenses/gpl-3.0.txt
  */
-(function(blocks, i18n, element, editor) {
+(function(blocks, i18n, element, blockEditor) {
     var el = element.createElement;
     var svgIcon = el(
         'svg', {width: 24, height: 24, viewBox: "0 0 24 24"},
@@ -39,7 +39,7 @@
     window.wp.blocks,
     window.wp.i18n,
     window.wp.element,
-    window.wp.editor
+    window.wp.blockEditor || window.wp.editor
 ));
 
 /*EOF*/

@@ -8,6 +8,8 @@
  * Author:      Mark Jivko
  * Author URI:  https://stephino.com
  * Version:     0.4.1
+ * Requires at least: 6.0
+ * Requires PHP: 8.1
  * Text Domain: stephino-rpg
  * Domain Path: /languages
  * License:     GPL v3+

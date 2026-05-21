@@ -430,7 +430,7 @@ class Stephino_Rpg_WordPress {
             wp_register_script(
                 'gutenberg-stephino-rpg', 
                 Stephino_Rpg_Utils_Media::getPluginsUrl() . '/' . Stephino_Rpg::FOLDER_UI_JS . '/wordpress/wp-gutenberg.js', 
-                array('wp-blocks', 'wp-element', 'wp-editor', 'wp-i18n')
+                array('wp-blocks', 'wp-element', 'wp-block-editor', 'wp-i18n')
             );
             wp_set_script_translations('gutenberg-stephino-rpg', 'stephino-rpg');
 
